@@ -1,0 +1,32 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        "gIg",
+        "SWS",
+        "LBL"
+    ],
+    "key": {
+        "g": {
+            "item": "minecraft:gold_ingot"
+        },
+        "I": {
+            "item": "minecraft:iron_trapdoor"
+        },
+        "S": {
+            "item": "minecraft:iron_bars"
+        },
+        "W": {
+            "item": "minecraft:white_stained_glass_pane"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        },
+        "B": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "minecraft:player_head",
+        "count": 1
+    }
+}
