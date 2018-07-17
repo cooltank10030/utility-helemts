@@ -1,0 +1,2 @@
+function utilityhelmets:night_vision
+function utilityhelmets:hazmat
