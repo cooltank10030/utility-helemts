@@ -1,3 +1,6 @@
+#reset some tags
+tag @e remove hazmat
+
 #fix for nbt recipes:
 scoreboard objectives add nbtfix1 minecraft.crafted:minecraft.zombie_head
 execute as @a[scores={nbtfix1=1..}] at @s run function utilityhelmets:nbtfix
