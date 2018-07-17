@@ -1,0 +1,32 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        "#G#",
+        "LBL",
+        "SKS"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "G": {
+            "item": "minecraft:glowstone_dust"
+        },
+        "L": {
+            "item": "minecraft:lime_stained_glass_pane"
+        },
+        "B": {
+            "item": "minecraft:leather"
+        },
+        "S": {
+            "item": "minecraft:string"
+        },
+        "K": {
+            "item": "minecraft:black_wool"
+        }
+    },
+    "result": {
+        "item": "minecraft:skeleton_skull",
+        "count": 1
+    }
+}
