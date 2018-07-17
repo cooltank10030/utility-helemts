@@ -1,0 +1,35 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        "#EB",
+        "GSG",
+        "DUD"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:poisonous_potato"
+        },
+        "E": {
+            "item": "minecraft:ender_eye"
+        },
+        "B": {
+            "item": "minecraft:blaze_powder"
+        },
+        "G": {
+            "item": "minecraft:ghast_tear"
+        },
+        "S": {
+            "item": "minecraft:bucket"
+        },
+        "D": {
+            "item": "minecraft:dandelion_yellow"
+        },
+        "U": {
+            "item": "minecraft:glowstone_dust"
+        }
+    },
+    "result": {
+        "item": "minecraft:creeper_head",
+        "count": 1
+    }
+}
