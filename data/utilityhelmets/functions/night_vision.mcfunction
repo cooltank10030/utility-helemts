@@ -1,1 +1,1 @@
-tag @s add night_vision
+effect @s night_vision
