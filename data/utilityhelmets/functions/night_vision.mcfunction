@@ -1,1 +1,1 @@
-effect @s add night_vision
+effect @s give night_vision
