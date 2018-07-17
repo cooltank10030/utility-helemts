@@ -1,1 +1,1 @@
-
+effect @s night vision
