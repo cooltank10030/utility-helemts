@@ -1,5 +1,5 @@
 #fix for nbt recipes:
-scoreboard objectives add nbtfix1 minecraft.crafted:minecraft.player_head
+scoreboard objectives add nbtfix1 minecraft.crafted:minecraft.zombie_head
 execute as @a[scores={nbtfix1=1..}] at @s run function utilityhelmets:nbtfix
 
 #raycasting for nuclear waste
