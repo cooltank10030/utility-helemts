@@ -1,5 +1,6 @@
 #reset some tags
 tag @e remove hazmat
+tag @e remove nightvision
 
 #fix for nbt recipes:
 scoreboard objectives add nbtfix1 minecraft.crafted:minecraft.zombie_head
@@ -22,3 +23,9 @@ execute as @e[tag=nucwaste] at @s run effect give @e[distance=..4,tag=!hazmat] w
 
 #function utilityhelmets:night_vision
 execute as @e[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOwner:{Id:"6dbc1b3b-6660-4dc2-bbbd-76f8bd809ea3",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMxNTFhN2RhZTkwM2FlNDdhZWY2MzdmMTBkNWU1N2ZlNzNmYTkyMzNiYzQ2N2I0ODUzYzdlMWJjZWFhOTVjZSJ9fX0="}]}}}}]}] at @s run function utilityhelmets:night_vision
+
+#add night vision
+execute as @e[tag=nightvision] at @s run effect give @s night_vision 20 0 true
+
+#remove night vision
+execute as @e[tag=!nightvision] at @s run effect clear @s night_vision
