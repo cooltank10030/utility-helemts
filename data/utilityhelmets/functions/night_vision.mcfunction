@@ -1,1 +1,1 @@
-effect give @s night_vision 20 1 true
+tag @s add nightvision
